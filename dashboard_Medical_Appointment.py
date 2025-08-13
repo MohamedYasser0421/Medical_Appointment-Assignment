@@ -200,7 +200,7 @@ def kpi_header_row():
         ])), md=3),
     ], className="g-3")
 
-# Narrative conclusions (used only inside Conclusions tab)
+# Narrative conclusions
 def insights_markdown() -> str:
     bullets = []
     overall = _show_rate(df["No-show"])
@@ -336,7 +336,6 @@ app.layout = dbc.Container([
     html.H2("Medical Appointment Attendance Dashboard", className="mt-2"),
     html.P("Exploratory analysis of show/no-show patterns with interactive views.", className="text-muted"),
 
-    # --- KPI header row (replaces dataset/source cards) ---
     kpi_header_row(),
     html.Hr(),
 
@@ -424,3 +423,4 @@ def update_condition_figure(col):
 # ======================================================================
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8050, debug=False)
+

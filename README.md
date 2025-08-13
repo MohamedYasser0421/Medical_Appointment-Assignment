@@ -1,11 +1,11 @@
-# 📊 Medical Appointment Attendance Dashboard
+# Medical Appointment Attendance Dashboard
 
 An **interactive data dashboard** built with **Dash, Plotly, and Bootstrap** for exploring and analyzing patterns in patient attendance for medical appointments.  
 The project uses the **Kaggle "No-show appointments" dataset** and provides insights into show/no-show rates based on demographics, appointment days, reminders, and medical conditions.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Interactive Tabs** for different perspectives:
   - **Overview:** Overall attendance distribution, gender analysis, and age distributions.  
@@ -20,8 +20,6 @@ The project uses the **Kaggle "No-show appointments" dataset** and provides insi
   - Total appointments  
   - Best attendance day  
   - Lowest attendance day  
-
-- **Custom theme** for consistent, professional styling with **Bootstrap FLATLY** + Plotly custom color palette.
 
 ---
 
